@@ -15,7 +15,7 @@ It includes smooth animations (AOS, Lenis), a custom cursor, and a splash screen
 ---
 
 ## 🚀 Live Demo
-👉 [View Portfolio on Vercel](https://your-vercel-link.vercel.app)  
+👉 [View Portfolio on Vercel](https://noothan-portfolio.vercel.app)
 
 ---
 
