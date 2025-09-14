@@ -1,11 +1,11 @@
-import C from "../assets/skills/C.png";
+import C from "../assets/skills/c.png";
 import Python from "../assets/skills/python.png";
 import Java from "../assets/skills/java.png";
 import HTML from "../assets/skills/html.png";
 import CSS from "../assets/skills/css-3.png";
 import JS from "../assets/skills/javascript.png";
-import reactjs from "../assets/skills/React.png";
-import sql from "../assets/skills/MySql.png";
+import reactjs from "../assets/skills/react.png";
+import sql from "../assets/skills/mysql.png";
 import BootStrap from "../assets/skills/bootstrap.png";
 import vscode from "../assets/skills/vscode.png";
 
