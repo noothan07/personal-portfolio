@@ -1,28 +1,27 @@
-import C from "../assets/skills/c.png";
-import Python from "../assets/skills/python.png";
-import Java from "../assets/skills/java.png";
-import HTML from "../assets/skills/html.png";
-import CSS from "../assets/skills/css-3.png";
-import JS from "../assets/skills/javascript.png";
-import reactjs from "../assets/skills/react.png";
-import sql from "../assets/skills/mysql.png";
-import BootStrap from "../assets/skills/bootstrap.png";
-import vscode from "../assets/skills/vscode.png";
+import cImg from "../assets/skills/clang.png";
+import pythonImg from "../assets/skills/python.png";
+import javaImg from "../assets/skills/java.png";
+import htmlImg from "../assets/skills/html.png";
+import cssImg from "../assets/skills/css.png";
+import jsImg from "../assets/skills/javascript.png";
+import reactImg from "../assets/skills/reactlib.png";
+import sqlImg from "../assets/skills/mysqllogo.png";
+import bootstrapImg from "../assets/skills/bootstrap.png";
+import vscodeImg from "../assets/skills/vscode.png";
 
 export default function TechStack() {
-
-    const data = [
-      {img:HTML,data: "html"},
-      {img:CSS,data: "css"},
-      {img:JS,data: "javascript"},
-      {img:reactjs,data: "reactjs"},
-      {img:BootStrap,data: "bootstrap"},
-      {img:Python,data: "Python"},
-      {img:Java,data: "java"},
-      {img:C,data: "C"},
-      {img:sql,data: "MySql"},
-      {img:vscode,data: "vscode"}
-    ];
+  const data = [
+    { img: htmlImg, data: "HTML" },
+    { img: cssImg, data: "CSS" },
+    { img: jsImg, data: "JavaScript" },
+    { img: reactImg, data: "ReactJS" },
+    { img: bootstrapImg, data: "Bootstrap" },
+    { img: pythonImg, data: "Python" },
+    { img: javaImg, data: "Java" },
+    { img: cImg, data: "C" },
+    { img: sqlImg, data: "MySQL" },
+    { img: vscodeImg, data: "VS Code" },
+  ];
 
   return (
     <section className="sec4 lazy-load">
@@ -32,8 +31,12 @@ export default function TechStack() {
           <h1>MY TECH STACK</h1>
         </div>
         <div className="TechStack-list">
-          {data.map((a,i) => (              
-            <div className="techstack-items" data-aos="zoom-in" aos-data-duration="1000">
+          {data.map((a, i) => (
+            <div
+              key={i}
+              className="techstack-items"
+              data-aos="zoom-in"
+            >
               <div className="tech">
                 <img src={a.img} alt={a.data} />
                 <p>{a.data}</p>
