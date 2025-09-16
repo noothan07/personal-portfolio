@@ -27,7 +27,7 @@
         display: none;
     }
     .sec2{
-        height:100vh;
+        height:85vh;
         padding: 0px 20px;
         margin: 10px 0 0 0;
     }
@@ -134,7 +134,6 @@
     }
     .sec4{
         height: max-content;
-        margin-bottom: 30px;
         padding: 50px 10px;
     }
     .TechStack-list {
@@ -145,6 +144,8 @@
         max-width: 100%;
         width:165px;
         height:130px;
+        min-width: 130px;
+        min-height: 100px;
     }
     .contact h1 {
         font-size: 60px;
@@ -204,6 +205,13 @@
     .study{
         height: fit-content;
         width: 100%;
+        padding: 30px 20px;
+    }
+    .branch{
+        font-size: 32px;
+    }
+    .welcome-text{
+        font-size: 24px;
     }
 }
 /* Tablet styles */
@@ -412,5 +420,8 @@
     }
     .study{
         width: 100%;
+    }
+    .welcome-text{
+        font-size: 32px;
     }
 }

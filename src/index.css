@@ -54,13 +54,13 @@ body {
   align-items: center;
   top: 0;
   position: sticky;
-  height: 90px;
+  height: 120px;
   z-index: 9999;
   transition: all 0.3s ease;
 }
 
 .navbar.scrolled {
-  height: 70px;
+  height: 100px;
   background-color: var(--bg-main);
   border-bottom: 1px solid rgba(121, 121, 121, 0.694);
 }
@@ -73,6 +73,7 @@ body {
 .navbar ul li {
   list-style: none;
   margin-right: 50px;
+  font-size: 20px;
 }
 
 .navbar a {
@@ -80,6 +81,7 @@ body {
   color: var(--color-black);
   font-weight: 600;
   font-family: Asimovian;
+  font-size: 24px;
 }
 
 .navbar a:hover {
@@ -90,7 +92,7 @@ body {
   font-family: Asimovian;
   margin-left: 100px;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .logo span {
@@ -100,7 +102,7 @@ body {
 
 /* Hero Section */
 .sec2 {
-  margin: 20px;
+  margin: 20px 50px;
   height: max-content;
 }
 
@@ -119,14 +121,14 @@ body {
 }
 
 .mypic h1 {
-  font-size: 160px;
+  font-size: 200px;
   z-index: -999;
   font-family: Fjalla One;
   text-align: center;
 }
 
 .mypic img {
-  transform: translateY(-16%);
+  transform: translateY(-20%);
   transition: all 0.3s ease;
   border-radius: 20px;
   border: 2px solid #fff;
@@ -138,7 +140,7 @@ body {
 }
 
 .aboutme {
-  max-width: 250px;
+  max-width: 350px;
   text-align: justify;
 }
 
@@ -148,13 +150,13 @@ body {
 
 .aboutme p {
   word-wrap: break-word;
-  font-size: 17px;
-  margin-bottom: 20px;
+  font-size: 22px;
+  margin-bottom: 40px;
 }
 
 .aboutme a {
   
-  padding: 10px 20px;
+  padding: 15px 25px;
   border: 2px solid var(--color-black);
   background: transparent;
   font-weight: 600;
@@ -189,7 +191,7 @@ span {
 
 .tagline {
   font-family: Fjalla One;
-  font-size: 40px;
+  font-size: 50px;
   margin: 50px 0 60px;
 }
 
@@ -226,8 +228,8 @@ span {
 
 /* Base Project Image */
 .project-image {
-  height: 420px;
-  width: 600px;
+  height: 520px;
+  width: 700px;
   border-radius: var(--border-radius);
   overflow: hidden;
   position: relative;
@@ -236,13 +238,13 @@ span {
 
 .project-image h1 {
   text-align: left;
-  font-size: 24px;
+  font-size: 30px;
   padding: 30px;
 }
 
 .project-image img {
-  height: 280px;
-  width: 550px;
+  height: 350px;
+  width: 650px;
   border-radius: 10px;
   transition: all 0.3s ease;
 }
@@ -278,7 +280,7 @@ span {
 
 .gradient-title {
   color: white;
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 800;
   margin-bottom: 20px;
   -webkit-background-clip: text;
@@ -287,8 +289,10 @@ span {
 
 .project-data{
   flex-wrap: wrap;
+  font-size: 22px;
+  font-weight: 300;
 }
-.project-data p { line-height: 3.1rem; }
+.project-data p { line-height: 3.7rem; }
 
 .project-data a {
   color: #fed800;
@@ -299,7 +303,7 @@ span {
   text-shadow: 0 0 10px #fdfee4;
 }
 
-.project-data span { color: var(--color-white); }
+.project-data span { color: var(--color-white); font-size:20px;}
 
 .techstack-used ul {
   display: flex;
@@ -324,7 +328,7 @@ span {
   text-align: center;
   padding: 20px;
   font-family: Fjalla One;
-  font-size: 40px;
+  font-size: 50px;
   color: var(--color-black);
 }
 
@@ -332,8 +336,9 @@ span {
 .TechStack-list{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
-  margin:50px 0px 20px 0px;
+  margin:50px 0px 50px 0px;
 }
 .techstack-items{
   display: flex;
@@ -341,7 +346,7 @@ span {
   align-items: center;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  width: 200px;
+  width: 210px;
   height:150px;
   border-radius: 15px;
   border: 1px white;
@@ -350,11 +355,15 @@ span {
 .techstack-items:hover{
   border: 1px solid rgba(0, 0, 0, 0.178);
 }
-  
+.tech{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .tech img{
   height: 60px;
   width: 60px;
-  align-items: center;
 }
 .tech p{
   padding-top: 10px;
@@ -398,7 +407,7 @@ span {
 }
 .scroll-text {
   display: inline-block;
-  font-size: 120px;
+  font-size: 160px;
   font-weight: 800;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -422,9 +431,10 @@ span {
 }
 
 .contact h1 {
+  padding-top: 30px;
   text-align: center;
   font-family: Fjalla One;
-  font-size: 80px;
+  font-size: 100px;
   color: var(--color-black);
 }
 
@@ -451,20 +461,20 @@ span {
 
 .address-info h2 {
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 32px;
   font-family: Bebas Neue;
   margin-bottom: 10px;
   color: #000000cc;
 }
 .address-info p {
   margin-left: 10px;
-  font-size: 17px;
+  font-size: 20px;
   color: #6e6e6e;
 }
 
-.my-icon { font-size: 26px; -webkit-text-stroke: 1px rgb(0, 0, 0); padding-bottom: 5px;-webkit-text-fill-color: white; }
+.my-icon { font-size: 32px; -webkit-text-stroke: 1px rgb(0, 0, 0); padding-bottom: 10px;-webkit-text-fill-color: white; }
 .my-icon1 {
-  font-size: 34px;
+  font-size: 38px;
   color: var(--color-black);
   margin-left: 10px;
   padding: 6px;
@@ -495,14 +505,14 @@ span {
 
 label {
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--color-black);
 }
 
 input, textarea {
   width: 100%;
   margin-bottom: 11px;
-  padding: 20px;
+  padding: 30px;
   border: 1px solid #444444a4;
   border-radius: 8px;
   font-size: 18px;
@@ -512,7 +522,7 @@ input, textarea {
 textarea { resize: vertical; height: 120px; font-family:"Geist", sans-serif; }
 
 .msg-btn {
-  padding: 15px 10px;
+  padding: 25px 20px;
   background: var(--color-black);
   color: var(--color-white);
   border: 2px solid var(--color-black);
@@ -529,7 +539,7 @@ textarea { resize: vertical; height: 120px; font-family:"Geist", sans-serif; }
   background: var(--color-black);
   color: var(--bg-main);
   border-top: 1px solid rgba(255, 255, 255, 0.13);
-  padding: 80px 0 50px;
+  padding: 80px 0 30px;
 }
 .footer-container {
   display: flex;
@@ -537,12 +547,13 @@ textarea { resize: vertical; height: 120px; font-family:"Geist", sans-serif; }
   align-items: center;
 }
 .footer-container p {
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 1px;
   font-weight: 100;
+  margin-bottom: 10px;
 }
 .footer-container h1 a {
-  font-size: 130px;
+  font-size: 180px;
   text-decoration: none;
   color: rgba(255, 252, 245, 0.829);
 }
@@ -568,7 +579,7 @@ textarea { resize: vertical; height: 120px; font-family:"Geist", sans-serif; }
 .welcome-text{
   display: flex;
   gap: 8px;
-  font-size:26px;
+  font-size:50px;
   font-weight:lighter;
   color: #ffffff;                /* make sure color is visible */
   -webkit-text-fill-color: #ffffff;
@@ -632,7 +643,7 @@ textarea { resize: vertical; height: 120px; font-family:"Geist", sans-serif; }
   padding: 70px 0px 20px 0px;
 }
 .about .title{
-  font-size: 50px;
+  font-size: 60px;
   font-family: Fjalla One;
   text-transform:uppercase;
   text-align: center;
@@ -651,15 +662,14 @@ textarea { resize: vertical; height: 120px; font-family:"Geist", sans-serif; }
   border: 1px solid rgba(255, 255, 255, 0.112);
   border-radius: 35px;
   background: rgba(255, 255, 255, 0.05);
-  padding: 30px 20px 30px 20px;
+  padding: 50px 40px;
 }
 .timeline{
   display: inline-block;
-  font-size: small;
   margin:0px 5px 30px 0px ;
   background-color: #86868682;
   color:rgba(255, 255, 255, 0.779);
-  padding: 10px;
+  padding: 15px 20px;
   border-radius: 15px;
 }
 .branch{
@@ -667,12 +677,15 @@ textarea { resize: vertical; height: 120px; font-family:"Geist", sans-serif; }
   margin-bottom: 20px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  font-size: 46px;
 }
 .clgname{
   text-transform:capitalize;
   color:rgba(255, 255, 255, 0.514);
   margin-bottom: 20px;
+  font-size: 20px;
 }
 .data{
   text-align:left;
+  font-size: large;
 }

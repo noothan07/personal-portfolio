@@ -11,7 +11,7 @@ export default function Hero() {
 
           <div className="mypic" data-aos="fade-up">
             <h1>NOOTHAN</h1>
-            <img src={profilePic} alt="mypic" height="460px" width="355px" loading="eager" fetchPriority="high"/>
+            <img src={profilePic} alt="mypic" height="510px" width="395px" loading="eager" fetchPriority="high"/>
           </div>
 
           <div className="aboutme">

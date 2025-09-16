@@ -8,6 +8,8 @@ import reactImg from "../assets/skills/reactlib.png";
 import sqlImg from "../assets/skills/mysqllogo.png";
 import bootstrapImg from "../assets/skills/bootstrap.png";
 import vscodeImg from "../assets/skills/vscode.png";
+import psImg from "../assets/skills/photoshop.png";
+import aeImg from "../assets/skills/aftereffects.png";
 
 export default function TechStack() {
   const data = [
@@ -21,6 +23,8 @@ export default function TechStack() {
     { img: cImg, data: "C" },
     { img: sqlImg, data: "MySQL" },
     { img: vscodeImg, data: "VS Code" },
+    { img: psImg, data: "Photoshop" },
+    { img: aeImg, data: "After effects"}
   ];
 
   return (
