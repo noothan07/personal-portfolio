@@ -13,6 +13,7 @@
   --gradient-gold: linear-gradient(to top, rgb(79, 145, 163), rgb(0, 41, 50));
   --gradient-orange: linear-gradient(to top, rgb(162, 146, 0) 40%, rgb(32, 23, 0));
   --gradient-green: linear-gradient(to top, rgb(26, 156, 0) 40%, rgb(8, 46, 0));
+  --gradient-blue: linear-gradient(to top, rgb(44, 146, 230), rgb(16, 96, 0));
 }
 
 /* Reset */
@@ -266,6 +267,7 @@ span {
 .project-gold { background: var(--gradient-gold); }
 .project-orange { background: var(--gradient-orange); }
 .project-green { background: var(--gradient-green); }
+.project-blue { background: var(--gradient-blue); }
 
 /* Project Data */
 .project-data {
@@ -277,6 +279,7 @@ span {
 .title-gold { background: linear-gradient(to right, #ffffff, #008a97 50%); }
 .title-orange { background: linear-gradient(to right, #ffffff, #c1c500 50%); }
 .title-green { background: linear-gradient(to right, #ffffff, #1ac500 50%); }
+.title-blue { background: linear-gradient(to right, #ffffff, #009dff 50%); }
 
 .gradient-title {
   color: white;

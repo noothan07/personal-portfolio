@@ -9,22 +9,25 @@ import sqlImg from "../assets/skills/mysqllogo.png";
 import bootstrapImg from "../assets/skills/bootstrap.png";
 import vscodeImg from "../assets/skills/vscode.png";
 import psImg from "../assets/skills/photoshop.png";
-import aeImg from "../assets/skills/aftereffects.png";
+import nodejsImg from "../assets/skills/nodejs.png";
+import expressImg from "../assets/skills/express.png";
+import mongodbImg from "../assets/skills/mongodb.png";
+import tailwindImg from "../assets/skills/tailwindcss.png";
 
 export default function TechStack() {
   const data = [
     { img: htmlImg, data: "HTML" },
     { img: cssImg, data: "CSS" },
-    { img: jsImg, data: "JavaScript" },
+    { img: mongodbImg, data: "MongoDB" },
+    { img: expressImg, data: "ExpressJS" },
     { img: reactImg, data: "ReactJS" },
-    { img: bootstrapImg, data: "Bootstrap" },
+    { img: nodejsImg, data: "NodeJS" },
+    { img: tailwindImg, data: "tailwind CSS" },
     { img: pythonImg, data: "Python" },
-    { img: javaImg, data: "Java" },
     { img: cImg, data: "C" },
     { img: sqlImg, data: "MySQL" },
     { img: vscodeImg, data: "VS Code" },
     { img: psImg, data: "Photoshop" },
-    { img: aeImg, data: "After effects"}
   ];
 
   return (
