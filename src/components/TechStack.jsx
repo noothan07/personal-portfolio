@@ -6,7 +6,6 @@ import cssImg from "../assets/skills/css.png";
 import jsImg from "../assets/skills/javascript.png";
 import reactImg from "../assets/skills/reactlib.png";
 import sqlImg from "../assets/skills/mysqllogo.png";
-import bootstrapImg from "../assets/skills/bootstrap.png";
 import vscodeImg from "../assets/skills/vscode.png";
 import psImg from "../assets/skills/photoshop.png";
 import nodejsImg from "../assets/skills/nodejs.png";

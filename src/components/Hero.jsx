@@ -1,4 +1,7 @@
 import profilePic from "../assets/noothan_nagala.webp";
+import resume from "../assets/files/noothan-resume.pdf";
+
+
 export default function Hero() {
   return (
     <section className="sec2" id="about">
@@ -19,7 +22,7 @@ export default function Hero() {
               Hi, I'm Noothan, an aspiring full stack developer, I can build
               softwares and websites using modern technologies and tools.
             </p>
-            <a href="">RESUME</a>
+            <a href={resume} download="Noothan_developer_Resume.pdf">RESUME</a>
           </div>
         </div>
       </div>
