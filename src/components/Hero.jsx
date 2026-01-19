@@ -1,4 +1,4 @@
-import profilePic from "../assets/noothan_nagala.webp";
+import profilePic from "../assets/nnnoothan.jpg";
 import resume from "../assets/files/noothan-resume.pdf";
 
 

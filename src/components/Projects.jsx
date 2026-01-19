@@ -1,4 +1,3 @@
-import animeImg from "../assets/Screenshot 2025-09-06 102816.webp";
 import calcImg from "../assets/cal_webview.webp";
 import portfolioImg from "../assets/personal-portfolio.png";
 import roboImg from "../assets/robo_3d.webp";

@@ -130,14 +130,16 @@ body {
 
 .mypic img {
   transform: translateY(-20%);
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   border-radius: 20px;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   rotate: 7deg;
+  filter: grayscale(100);
 }
 
 .mypic img:hover {
   rotate: 0deg;
+  filter: grayscale(0);
 }
 
 .aboutme {
