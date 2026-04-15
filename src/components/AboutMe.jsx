@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutMe(){
     const AboutData =[
         {
-            timeline:"2023-present",
+            timeline:"2023-2026",
             branch:"diploma in computer engineering",
             clgname:"@ andhra polytechnic",
             data:`I'm currently pursuing my diploma in computer engineering
